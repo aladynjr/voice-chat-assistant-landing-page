@@ -29,7 +29,7 @@ const Logo = ({ size, color, accent }: { size: number; color: string; accent: st
 export default function TeslaInspiredVoiceChatAssistantLanding() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
   const [isScrolled, setIsScrolled] = useState(false)
-  const videoRef = useRef<HTMLVideoElement>(null);
+  const videoRef = useRef<HTMLDivElement>(null);
   const playerRef = useRef<Plyr | null>(null);
 
   useEffect(() => {
