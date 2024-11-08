@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Voice Chat Assistant for ChatGPT</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1, h2 {
+            color: #1a1a1a;
+        }
+        .last-updated {
+            color: #666;
+            font-style: italic;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .emphasis {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #22D3EE;
+        }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p class="last-updated">Last Updated: November 2024</p>
+
+    <div class="section">
+        <h2>Introduction</h2>
+        <p>This Privacy Policy describes how Voice Chat Assistant for ChatGPT ("we," "our," or "the extension") collects, uses, and handles your information when you use our Chrome extension.</p>
+    </div>
+
+    <div class="section">
+        <h2>Information Collection and Use</h2>
+        <h3>API Keys</h3>
+        <p class="emphasis">We store your ElevenLabs API key locally in your browser using Chrome's storage API. This key is never transmitted to our servers and is only used to authenticate requests directly with ElevenLabs' services.</p>
+
+        <h3>Voice Input</h3>
+        <ul>
+            <li>The extension uses your device's microphone only when explicitly activated by you</li>
+            <li>Voice input is processed locally using the Web Speech API</li>
+            <li>Transcribed text is sent directly to ChatGPT through their existing interface</li>
+            <li>No voice recordings are stored or transmitted elsewhere</li>
+        </ul>
+
+        <h3>Text Processing</h3>
+        <ul>
+            <li>ChatGPT responses are processed through ElevenLabs' text-to-speech API</li>
+            <li>Text content is transmitted directly from your browser to ElevenLabs using your provided API key</li>
+            <li>No text content is stored on our servers</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Data Storage</h2>
+        <p>The extension stores only:</p>
+        <ul>
+            <li>Your ElevenLabs API key (stored locally in Chrome storage)</li>
+            <li>Temporary audio data for playback (cleared when audio completes or extension is disabled)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Third-Party Services</h2>
+        <p>This extension integrates with:</p>
+        <ul>
+            <li><strong>ChatGPT</strong> - Subject to OpenAI's privacy policy</li>
+            <li><strong>ElevenLabs</strong> - Subject to ElevenLabs' privacy policy and terms of service</li>
+            <li><strong>Chrome Web Speech API</strong> - Subject to Google's privacy policy</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Required Permissions</h2>
+        <p>The extension requires the following permissions:</p>
+        <ul>
+            <li><strong>Microphone access</strong> - For voice input functionality</li>
+            <li><strong>Storage</strong> - To save your API key locally</li>
+            <li><strong>Active tab</strong> - To interact with ChatGPT's interface</li>
+            <li><strong>webRequest</strong> - To handle API communications</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Data Security</h2>
+        <p>We implement security measures including:</p>
+        <ul>
+            <li>Local storage of sensitive data (API keys)</li>
+            <li>Direct API communications without intermediate servers</li>
+            <li>No persistent storage of voice or text data</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Children's Privacy</h2>
+        <p>Our extension is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13.</p>
+    </div>
+
+    <div class="section">
+        <h2>Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
+    </div>
+
+    <div class="section">
+        <h2>Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us via Twitter: <a href="https://x.com/aladdinnjr">@aladdinnjr</a></p>
+    </div>
+</body>
+</html>
